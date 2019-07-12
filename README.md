@@ -17,7 +17,7 @@ And finally compile with the *bash* script :
 ./tester.sh
 ```
 
-## 1. Basics
+## 1. Fundamentals
 
 * Hello You : `kata_hello_you`
 * Fizz Buzz : `kata_fizzbuzz`
