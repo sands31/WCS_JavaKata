@@ -1,23 +1,16 @@
-# Katas
+# String Compare
 
-In order to train a kata, you need to checkout its corresponding branch :
+Create a method which returns the number of identical characters at same position, from two `String` of same length.
 
-``` bash
-git checkout kata_name
+If the two arguments doesn't have the same length, return -1 instead.
+
+*E.g:*
+
 ```
-
-Then read its description from the `README.md`, and :
-
-* edit the class in the path `/src/kata`
-* add tests in the path `/src/test`
-
-And finally compile with the *bash* script :
-
-``` bash
-./tester.sh
+origin   compare     result
+"a"      "a"         1
+"a"      "b"         0
+"aa"     "ba"        1
+"cassis" "castor"    3
+"tacos"  "poulpe"   -1
 ```
-
-## 1. Fundamentals
-
-* Hello You : `kata_hello_you`
-* Fizz Buzz : `kata_fizzbuzz`
