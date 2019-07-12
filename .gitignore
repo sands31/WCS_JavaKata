@@ -1,4 +1,7 @@
 *.iml
 *.class
 .idea
-out/
+out/*
+!out/.gitignore
+logs/*
+!logs/.gitignore
