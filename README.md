@@ -1,23 +1,10 @@
-# Katas
+# Count Letters
 
-In order to train a kata, you need to checkout its corresponding branch :
+Create a method which counts, in a given `String`, the number of times a character appears.
 
-``` bash
-git checkout kata_name
-```
+*E.g :*
 
-Then read its description from the `README.md`, and :
-
-* edit the class in the path `/src/kata`
-* add tests in the path `/src/test`
-
-And finally compile with the *bash* script :
-
-``` bash
-./tester.sh
-```
-
-## 1. Fundamentals
-
-* Hello You : `kata_hello_you`
-* Fizz Buzz : `kata_fizzbuzz`
+* "a" and 'a' return 1.
+* "aaaaabbbaa" and 'a' return 7.
+* "bbacbaaa" and 'c' return 1.
+* "bbcc" and 'a' return 0.
