@@ -21,3 +21,9 @@ And finally compile with the *bash* script :
 
 * Hello You : `kata_hello_you`
 * Fizz Buzz : `kata_fizzbuzz`
+
+
+## 2. String
+
+* Count Letters : `kata_count_letters`
+* String Compare : `kata_string_compare`
