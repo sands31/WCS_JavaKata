@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 clear
-if [ -n "$1" ]; then
+if [[ -n "$1" ]]; then
     classname="$1"
     classname="$(tr '[:lower:]' '[:upper:]' <<< ${classname:0:1})${classname:1}"
 
