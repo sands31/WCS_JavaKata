@@ -8,5 +8,16 @@ public class PyramidTest {
         Assert.assertEquals(true, true);
     }
 
-    // TODO
+
+    @Test
+    public void test5() throws Exception {
+        String[] expected = {
+                "    *    ",
+                "   ***   ",
+                "  *****  ",
+                " ******* ",
+                "*********",
+        };
+        Assert.assertArrayEquals(expected, Pyramid.draw(5));
+    }
 }
