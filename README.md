@@ -17,13 +17,24 @@ And finally compile with the *bash* script :
 ./tester.sh
 ```
 
-## 1. Fundamentals
+## Fundamentals
 
-* Hello You : `kata_hello_you`
-* Fizz Buzz : `kata_fizzbuzz`
+* `kata_hello_you`
+* `kata_fizzbuzz`
 
+## String
 
-## 2. String
+* `kata_count_letters`
+* `kata_string_compare`
 
-* Count Letters : `kata_count_letters`
-* String Compare : `kata_string_compare`
+## Array
+
+* `kata_pyramid`
+
+## Collection
+
+* `kata_roman_to_arabic`
+
+## Binary
+
+* `kata_binary_to_decimal`
