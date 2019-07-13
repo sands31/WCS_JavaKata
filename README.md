@@ -1,29 +1,18 @@
-# Katas
+# Binary to Decimal
 
-In order to train a kata, you need to checkout its corresponding branch :
+Create a method that, given a binary string representation of a number, returns its decimal value.
 
-``` bash
-git checkout kata_name
+Here's the numbers 0 to 9 represented as base 2 (binary):
+
 ```
-
-Then read its description from the `README.md`, and :
-
-* edit the class in the path `/src/kata`
-* add tests in the path `/src/test`
-
-And finally compile with the *bash* script :
-
-``` bash
-./tester.sh
+   "0"	0
+   "1"	1
+  "10"	2
+  "11"	3
+ "100"	4
+ "101"	5
+ "110"	6
+ "111"	7
+"1000"	8
+"1001"	9
 ```
-
-## 1. Fundamentals
-
-* Hello You : `kata_hello_you`
-* Fizz Buzz : `kata_fizzbuzz`
-
-
-## 2. String
-
-* Count Letters : `kata_count_letters`
-* String Compare : `kata_string_compare`
