@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 clear
-if [ -n "$1" ]; then
+if [[ -n "$1" ]]; then
     classname="$1"
     classname="$(tr '[:lower:]' '[:upper:]' <<< ${classname:0:1})${classname:1}"
 
@@ -13,5 +13,5 @@ if [ -n "$1" ]; then
         java -classpath out:lib/junit-4.12.jar:lib/hamcrest-core-1.3.jar org.junit.runner.JUnitCore ${classname}Test
     fi
 else
-    echo "Please specify the kata to test, e.g. : ./tester.sh Main"
+    echo "Please specify the kata to test, e.g. : ./tester.sh Pyramid"
 fi
