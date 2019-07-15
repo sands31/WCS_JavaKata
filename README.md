@@ -19,22 +19,22 @@ And finally compile with the *bash* script :
 
 ## Fundamentals
 
-* `kata_hello_you`
-* `kata_fizzbuzz`
+* [kata_hello_you](https://github.com/WildCodeSchool/java-katas/tree/kata_hello_you)
+* [kata_fizzbuzz](https://github.com/WildCodeSchool/java-katas/tree/kata_fizzbuzz)
 
 ## String
 
-* `kata_count_letters`
-* `kata_string_compare`
+* [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
+* [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
 
 ## Array
 
-* `kata_pyramid`
+* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
 
 ## Collection
 
-* `kata_roman_to_arabic`
+* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
 
 ## Binary
 
-* `kata_binary_to_decimal`
+* [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
