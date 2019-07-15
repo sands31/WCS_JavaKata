@@ -20,6 +20,7 @@ public class RecursiveMultiplyTest {
         Assert.assertEquals(18, RecursiveMultiply.multiply(3, 6));
         Assert.assertEquals(12, RecursiveMultiply.multiply(6, 2));
         Assert.assertEquals(1000000, RecursiveMultiply.multiply(100000, 10));
+        Assert.assertEquals(1048576, RecursiveMultiply.multiply(1024, 1024));
     }
 
     @Test
