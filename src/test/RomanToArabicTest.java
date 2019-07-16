@@ -8,34 +8,19 @@ public class RomanToArabicTest {
         Assert.assertEquals(true, true);
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void testEmpty() throws Exception {
-        try {
-            RomanToArabic.convert("");
-            Assert.fail("No IllegalArgumentException throw for empty argument");
-        } catch (IllegalArgumentException e) {
-            Assert.assertEquals("Illegal roman numeral", e.getMessage());
-        }
+        RomanToArabic.convert("");
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void testNull() throws Exception {
-        try {
-            RomanToArabic.convert(null);
-            Assert.fail("No IllegalArgumentException throw for null argument");
-        } catch (IllegalArgumentException e) {
-            Assert.assertEquals("Illegal roman numeral", e.getMessage());
-        }
+        RomanToArabic.convert(null);
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void testIllegal() throws Exception {
-        try {
-            RomanToArabic.convert("XS");
-            Assert.fail("No IllegalArgumentException throw for illegal argument");
-        } catch (IllegalArgumentException e) {
-            Assert.assertEquals("Illegal roman numeral", e.getMessage());
-        }
+        RomanToArabic.convert("XS");
     }
 
     @Test

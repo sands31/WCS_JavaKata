@@ -2,7 +2,7 @@
 
 Create a method which converts roman numeral to arabic.
 
-If the argument is *null*, empty or contains non roman numeral, throw an `IllegalArgumentException` with the message "Illegal roman numeral".
+If the argument is *null*, empty or contains non roman numeral, throw an `IllegalArgumentException`.
 
 E.g :
 
