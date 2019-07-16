@@ -8,24 +8,14 @@ public class BinaryToDecimalTest {
         Assert.assertEquals(true, true);
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void testEmptyArgument() throws Exception {
-        try {
-            BinaryToDecimal.convert("");
-            Assert.fail("No IllegalArgumentException throw for empty argument");
-        } catch (IllegalArgumentException e) {
-            Assert.assertEquals("Illegal binary string", e.getMessage());
-        }
+        BinaryToDecimal.convert("");
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void testNullArgument() throws Exception {
-        try {
-            BinaryToDecimal.convert(null);
-            Assert.fail("No IllegalArgumentException throw for null argument");
-        } catch (IllegalArgumentException e) {
-            Assert.assertEquals("Illegal binary string", e.getMessage());
-        }
+        BinaryToDecimal.convert(null);
     }
 
     @Test

@@ -2,7 +2,7 @@
 
 Create a method that, given a binary string representation of a number, returns its decimal value.
 
-If the argument is *null* or empty, or if a digit isn't 1 or 0, throw an `IllegalArgumentException` with the message "Illegal binary string".
+If the argument is *null* or empty, or if a digit isn't 1 or 0, throw an `IllegalArgumentException`.
 
 Here's the numbers 0 to 9 represented as base 2 (binary):
 
