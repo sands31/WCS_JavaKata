@@ -11,9 +11,9 @@ The method will check the cell using the coordinates and returns :
 * "kaboom", if it contains a boom
 * the number of adjacent bombs, if it's empty
 
-The method will throw an `IllegalArgumentException` with the message "Illegal grid", if the grid is `null` or has a width or height of `0`.
+The method will throw an `IllegalArgumentException` if the grid is `null` or has a width or height of `0`.
 
-The method will throw a `IndexOutOfBoundsException` with the message "Illegal coordinates", if `row` or `column` is out of bounds.
+The method will throw a `IndexOutOfBoundsException` if `row` or `column` is out of bounds.
 
 *E.g :*
 
