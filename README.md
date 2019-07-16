@@ -1,49 +1,15 @@
-# Katas
+# Count Minors
 
-In order to train a kata, you need to checkout its corresponding branch :
+Create a method which counts how many minors are found in an integer array.
 
-``` bash
-git checkout kata_name
+In order to accommodate each country laws, you will also take the legal age as parameter.
+
+If the integer array is *null* or if the legal age is negative, return -1 instead.
+
+*E.g:*
 ```
+ages : {12, 16, 23, 47, 5, 16, 21}
+legalAge : 18
 
-Then read its description from the `README.md`, and :
-
-* edit the class in the path `/src/kata`
-* add tests in the path `/src/test`
-
-And finally compile with the *bash* script :
-
-``` bash
-./tester.sh
+result : 4
 ```
-
-## Fundamentals
-
-* [kata_hello_you](https://github.com/WildCodeSchool/java-katas/tree/kata_hello_you)
-* [kata_fizzbuzz](https://github.com/WildCodeSchool/java-katas/tree/kata_fizzbuzz)
-
-## String
-
-* [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
-* [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
-* [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
-
-## Array
-
-* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
-
-## Object
-
-* [kata_worms_arena](https://github.com/WildCodeSchool/java-katas/tree/kata_worms_arena)
-
-## Collection
-
-* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
-
-## Binary
-
-* [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
-
-## Recursion
-
-* [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
