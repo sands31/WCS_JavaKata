@@ -1,44 +1,11 @@
-# Katas
+# Worms Arena
 
-In order to train a kata, you need to checkout its corresponding branch :
+Two worms fight into an arena : there can be only one !
 
-``` bash
-git checkout kata_name
-```
+Each worm has a number of life and attack points. When a fight begins, each worm attack in turn, until one of them doesn't have any life point.
 
-Then read its description from the `README.md`, and :
+The rules stipulate that each turn, the worms with the lowest life points attacks first.
 
-* edit the class in the path `/src/kata`
-* add tests in the path `/src/test`
+Return the victorious worm !
 
-And finally compile with the *bash* script :
-
-``` bash
-./tester.sh
-```
-
-## Fundamentals
-
-* [kata_hello_you](https://github.com/WildCodeSchool/java-katas/tree/kata_hello_you)
-* [kata_fizzbuzz](https://github.com/WildCodeSchool/java-katas/tree/kata_fizzbuzz)
-
-## String
-
-* [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
-* [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
-
-## Array
-
-* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
-
-## Collection
-
-* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
-
-## Binary
-
-* [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
-
-## Recursion
-
-* [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
+You'll have to complete both `Worm` and `Arena` classes.
