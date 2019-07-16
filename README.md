@@ -26,10 +26,15 @@ And finally compile with the *bash* script :
 
 * [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
 * [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
+* [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
 
 ## Array
 
 * [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
+
+## Object
+
+* [kata_worms_arena](https://github.com/WildCodeSchool/java-katas/tree/kata_worms_arena)
 
 ## Collection
 
