@@ -1,44 +1,26 @@
-# Katas
+# Minesweeper
 
-In order to train a kata, you need to checkout its corresponding branch :
+Create a method that takes a integer matrix `grid` and two integers `row` and `column` as parameters :
 
-``` bash
-git checkout kata_name
+* `grid` : a minesweeper matrix where `0` are empty cells and `1` are bombs. The width and height of the `grid` can vary.
+* `row` : the vertical coordinate where you'll check the cell
+* `column` : the horizontal coordinate where you'll check the cell
+
+The method will check the cell using the coordinates and returns :
+
+* "kaboom", if it contains a boom
+* the number of adjacent bombs, if it's empty
+
+*E.g :*
+
 ```
+grid : {
+    {0, 0, 0, 1},
+    {0, 1, 0, 1},
+    {1, 0, 0, 0},
+}
+row : 1
+column : 2
 
-Then read its description from the `README.md`, and :
-
-* edit the class in the path `/src/kata`
-* add tests in the path `/src/test`
-
-And finally compile with the *bash* script :
-
-``` bash
-./tester.sh
+result : "3"
 ```
-
-## Fundamentals
-
-* [kata_hello_you](https://github.com/WildCodeSchool/java-katas/tree/kata_hello_you)
-* [kata_fizzbuzz](https://github.com/WildCodeSchool/java-katas/tree/kata_fizzbuzz)
-
-## String
-
-* [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
-* [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
-
-## Array
-
-* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
-
-## Collection
-
-* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
-
-## Binary
-
-* [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
-
-## Recursion
-
-* [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
