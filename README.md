@@ -1,44 +1,15 @@
-# Katas
+# Hexadecimal to RGB
 
-In order to train a kata, you need to checkout its corresponding branch :
+Create a method that converts a hexadecimal color string into a RGB array.
 
-``` bash
-git checkout kata_name
-```
+A hexadecimal color string is a triplet of hexadecimal values (red, blue, green) that begins with a '#'.
+E.g: `#FFD700` will be the gold color : `FF` for red, `D7` for blue, `00` for green.
 
-Then read its description from the `README.md`, and :
+A hexadecimal digit (base 16) goes from `0` to `9` and then from `A` to `F` (10 to 15).
+Each color group contains two digits, and goes from `00` to `FF` (255).
 
-* edit the class in the path `/src/kata`
-* add tests in the path `/src/test`
+A RBG array contains the value of each color group in decimal.
 
-And finally compile with the *bash* script :
+If you convert `#FFD700` into a RGB array, you'll obtain `{255, 215, 0}`.
 
-``` bash
-./tester.sh
-```
-
-## Fundamentals
-
-* [kata_hello_you](https://github.com/WildCodeSchool/java-katas/tree/kata_hello_you)
-* [kata_fizzbuzz](https://github.com/WildCodeSchool/java-katas/tree/kata_fizzbuzz)
-
-## String
-
-* [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
-* [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
-
-## Array
-
-* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
-
-## Collection
-
-* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
-
-## Binary
-
-* [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
-
-## Recursion
-
-* [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
+In order to convert a hexadecimal into decimal value, you can use `Integer.parseInt(value, 16);`.
