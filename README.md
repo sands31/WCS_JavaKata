@@ -30,7 +30,12 @@ And finally compile with the *bash* script :
 
 ## Array
 
+* [kata_found_min](https://github.com/WildCodeSchool/java-katas/tree/kata_found_min)
 * [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
+
+## Matrix
+
+* [kata_minesweeper](https://github.com/WildCodeSchool/java-katas/tree/kata_minesweeper)
 
 ## Object
 
