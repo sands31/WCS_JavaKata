@@ -1,8 +1,9 @@
 class MaxSum {
 
-    public static int maxSum(TreeNode root) {
-
-        // TODO
-        return 0;
+    static int maxSum(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        return root.getValue() + Math.max(maxSum(root.getLeft()), maxSum(root.getRight()));
     }
 }
