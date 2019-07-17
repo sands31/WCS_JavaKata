@@ -25,6 +25,7 @@ And finally compile with the *bash* script :
 ## String
 
 * [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
+* [kata_palindrome](https://github.com/WildCodeSchool/java-katas/tree/kata_palindrome)
 * [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
 * [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
 
