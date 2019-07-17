@@ -1,56 +1,26 @@
-# Katas
+## MaxSum
 
-In order to train a kata, you need to checkout its corresponding branch :
+You are given a binary tree. Implement the method maxSum which returns the maximal sum of a route from root to leaf. For example, given the following tree:
 
-``` bash
-git checkout kata_name
+```
+        17
+       /  \
+      3   -10
+     /    /  \
+    2    16   1
+             /
+            13
 ```
 
-Then read its description from the `README.md`, and :
+The method should return 23, since `{17, -10, 16}` is the route from root to leaf with the maximal sum.
 
-* edit the class in the path `/src/kata`
-* add tests in the path `/src/test`
+The class `TreeNode` is available for you:
 
-And finally compile with the *bash* script :
-
-``` bash
-./tester.sh
+``` java
+    class TreeNode {
+        private int value;
+        private TreeNode left;
+        private TreeNode right;
+        // ...
+    }
 ```
-
-## Fundamentals
-
-* [kata_hello_you](https://github.com/WildCodeSchool/java-katas/tree/kata_hello_you)
-* [kata_fizzbuzz](https://github.com/WildCodeSchool/java-katas/tree/kata_fizzbuzz)
-
-## String
-
-* [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
-* [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
-* [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
-
-## Array
-
-* [kata_found_min](https://github.com/WildCodeSchool/java-katas/tree/kata_found_min)
-* [kata_tennis](https://github.com/WildCodeSchool/java-katas/tree/kata_tennis)
-* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
-
-## Matrix
-
-* [kata_minesweeper](https://github.com/WildCodeSchool/java-katas/tree/kata_minesweeper)
-
-## Object
-
-* [kata_worms_arena](https://github.com/WildCodeSchool/java-katas/tree/kata_worms_arena)
-
-## Collection
-
-* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
-
-## Binary
-
-* [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
-
-## Recursion
-
-* [kata_fibonacci](https://github.com/WildCodeSchool/java-katas/tree/kata_fibonacci)
-* [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
