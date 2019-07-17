@@ -1,54 +1,22 @@
-# Katas
+# Tennis
 
-In order to train a kata, you need to checkout its corresponding branch :
+Create a method which returns the string of the current scores in a tennis game, from integer array where each value represents the player that scored.
 
-``` bash
-git checkout kata_name
-```
+> {1, 1, 2, 2, 1} : serving player (1) scored twice, then the receiving player (2) scored twice, and finally the serving player (1) scored once. The expected result is "40-30".
 
-Then read its description from the `README.md`, and :
+## Game rules :
 
-* edit the class in the path `/src/kata`
-* add tests in the path `/src/test`
+The score on the left represents the serving player (1), the score on the right represents the receiving player (2).
 
-And finally compile with the *bash* script :
+Scores from zero to three points are described as "love", "15", "30", and "40", respectively.
 
-``` bash
-./tester.sh
-```
+If at least three points have been scored by each player, the score is not called out as "40–40", but rather as "deuce".
 
-## Fundamentals
+If at least three points have been scored by each side and a player has one more point than his opponent, the score of the game can be called "ad in" when the serving player (1) is ahead, and "ad out" when the receiving player (2) is ahead.
 
-* [kata_hello_you](https://github.com/WildCodeSchool/java-katas/tree/kata_hello_you)
-* [kata_fizzbuzz](https://github.com/WildCodeSchool/java-katas/tree/kata_fizzbuzz)
-
-## String
-
-* [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
-* [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
-* [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
-
-## Array
-
-* [kata_found_min](https://github.com/WildCodeSchool/java-katas/tree/kata_found_min)
-* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
-
-## Matrix
-
-* [kata_minesweeper](https://github.com/WildCodeSchool/java-katas/tree/kata_minesweeper)
-
-## Object
-
-* [kata_worms_arena](https://github.com/WildCodeSchool/java-katas/tree/kata_worms_arena)
-
-## Collection
-
-* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
-
-## Binary
-
-* [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
-
-## Recursion
-
-* [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
+*E.g:*
+ 
+* points : {1, 1, 1}, result : "40-love"
+* points : {2, 1, 2, 2}, result : "15-40"
+* points : {1, 2, 1, 2, 1, 2}, result : "deuce"
+* points : {1, 1, 1, 2, 2, 2, 1}, result : "ad in"
