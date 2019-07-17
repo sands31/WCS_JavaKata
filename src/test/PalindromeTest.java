@@ -8,5 +8,12 @@ public class PalindromeTest {
         Assert.assertEquals(true, true);
     }
 
-    // TODO
+    @Test
+    public void testPalindrome() throws Exception {
+        Assert.assertEquals(true, Palindrome.isPalindrome(null));
+        Assert.assertEquals(true, Palindrome.isPalindrome(""));
+        Assert.assertEquals(true, Palindrome.isPalindrome("rotor"));
+        Assert.assertEquals(false, Palindrome.isPalindrome("tacos"));
+        Assert.assertEquals(true, Palindrome.isPalindrome("Kayak"));
+    }
 }
