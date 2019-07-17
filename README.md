@@ -1,4 +1,4 @@
-## MaxSum
+## Binary Tree: Max Sum
 
 You are given a binary tree. Implement the method maxSum which returns the maximal sum of a route from root to leaf. For example, given the following tree:
 
