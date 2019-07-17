@@ -22,18 +22,20 @@ And finally compile with the *bash* script :
 * [kata_hello_you](https://github.com/WildCodeSchool/java-katas/tree/kata_hello_you)
 * [kata_fizzbuzz](https://github.com/WildCodeSchool/java-katas/tree/kata_fizzbuzz)
 
+## Array
+
+* [kata_found_min](https://github.com/WildCodeSchool/java-katas/tree/kata_found_min)
+* [kata_sort_array](https://github.com/WildCodeSchool/java-katas/tree/kata_sort_array)
+* [kata_tennis](https://github.com/WildCodeSchool/java-katas/tree/kata_tennis)
+* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
+
 ## String
 
 * [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
 * [kata_palindrome](https://github.com/WildCodeSchool/java-katas/tree/kata_palindrome)
 * [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
 * [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
-
-## Array
-
-* [kata_found_min](https://github.com/WildCodeSchool/java-katas/tree/kata_found_min)
-* [kata_tennis](https://github.com/WildCodeSchool/java-katas/tree/kata_tennis)
-* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
+* [kata_runlength_encoding](https://github.com/WildCodeSchool/java-katas/tree/kata_runlength_encoding)
 
 ## Matrix
 
