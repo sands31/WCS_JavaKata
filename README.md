@@ -52,4 +52,5 @@ And finally compile with the *bash* script :
 
 ## Recursion
 
+* [kata_fibonacci](https://github.com/WildCodeSchool/java-katas/tree/kata_fibonacci)
 * [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
