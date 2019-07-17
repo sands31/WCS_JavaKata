@@ -54,3 +54,7 @@ And finally compile with the *bash* script :
 
 * [kata_fibonacci](https://github.com/WildCodeSchool/java-katas/tree/kata_fibonacci)
 * [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
+
+## Binary Tree
+
+* [kata_binarytree_maxsum](https://github.com/WildCodeSchool/java-katas/tree/kata_binarytree_maxsum)
