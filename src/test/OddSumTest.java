@@ -8,5 +8,10 @@ public class OddSumTest {
         Assert.assertEquals(true, true);
     }
 
-    // TODO
+    @Test
+    public void testSum() throws Exception {
+        Assert.assertEquals(0, OddSum.sum(new int[]{}));
+        Assert.assertEquals(0, OddSum.sum(new int[]{2}));
+        Assert.assertEquals(9, OddSum.sum(new int[]{1, 2, 3, 4, 5}));
+    }
 }
