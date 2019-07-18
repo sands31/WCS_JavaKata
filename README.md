@@ -44,6 +44,7 @@ And finally compile with the *bash* script :
 ## Object
 
 * [kata_worms_arena](https://github.com/WildCodeSchool/java-katas/tree/kata_worms_arena)
+* [kata_shape](https://github.com/WildCodeSchool/java-katas/tree/kata_shape)
 
 ## Collection
 
