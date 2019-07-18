@@ -57,7 +57,7 @@ And finally compile with the *bash* script :
 ## Collection
 
 * [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
-* // TODO morse
+* [kata_morse_code](https://github.com/WildCodeSchool/java-katas/tree/kata_morse_code)
 
 ## Binary
 
