@@ -19,17 +19,17 @@ public class FindMaxTest {
 
     /**
      *        5
-     *      /   \
-     *    -22    11
-     *    / \    / \
-     *   9  50  9   2
+     *      /  \
+     *     17   11
+     *    /    /  \
+     *   9    12   2
      */
     @Test
     public void testTree() {
         TreeNode tree = new TreeNode(5,
-                new TreeNode(-22, new TreeNode(9, null, null), new TreeNode(50, null, null)),
-                new TreeNode(11, new TreeNode(9, null, null), new TreeNode(2, null, null))
+                new TreeNode(17, new TreeNode(9, null, null), null),
+                new TreeNode(11, new TreeNode(12, null, null), new TreeNode(2, null, null))
         );
-        Assert.assertEquals(50, FindMax.max(tree));
+        Assert.assertEquals(17, FindMax.max(tree));
     }
 }
