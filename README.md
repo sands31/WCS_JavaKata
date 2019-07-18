@@ -1,65 +1,27 @@
-# Katas
+## Binary Tree: Find Max
 
-In order to train a kata, you need to checkout its corresponding branch :
+You are given a binary tree. Implement the method *findMax* which returns the maximum value. 
 
-``` bash
-git checkout kata_name
+*E.g:*
+```
+        13
+       /   \
+      3     5
+     /    /  \
+    2    16   17
+             /
+            13
+            
+result : 17
 ```
 
-Then read its description from the `README.md`, and :
+The class `TreeNode` is available for you:
 
-* edit the class in the path `/src/kata`
-* add tests in the path `/src/test`
-
-And finally compile with the *bash* script :
-
-``` bash
-./tester.sh
+``` java
+    class TreeNode {
+        private int value;
+        private TreeNode left;
+        private TreeNode right;
+        // ...
+    }
 ```
-
-## Fundamentals
-
-* [kata_hello_you](https://github.com/WildCodeSchool/java-katas/tree/kata_hello_you)
-* [kata_fizzbuzz](https://github.com/WildCodeSchool/java-katas/tree/kata_fizzbuzz)
-
-## Array
-
-* [kata_found_min](https://github.com/WildCodeSchool/java-katas/tree/kata_found_min)
-* [kata_sort_array](https://github.com/WildCodeSchool/java-katas/tree/kata_sort_array)
-* [kata_tennis](https://github.com/WildCodeSchool/java-katas/tree/kata_tennis)
-* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
-
-## String
-
-* [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
-* [kata_palindrome](https://github.com/WildCodeSchool/java-katas/tree/kata_palindrome)
-* [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
-* [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
-* [kata_runlength_encoding](https://github.com/WildCodeSchool/java-katas/tree/kata_runlength_encoding)
-
-## Matrix
-
-* [kata_minesweeper](https://github.com/WildCodeSchool/java-katas/tree/kata_minesweeper)
-
-## Object
-
-* [kata_worms_arena](https://github.com/WildCodeSchool/java-katas/tree/kata_worms_arena)
-
-## Collection
-
-* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
-
-## Binary
-
-* [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
-
-## Recursion
-
-* [kata_fibonacci](https://github.com/WildCodeSchool/java-katas/tree/kata_fibonacci)
-* [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
-
-## Binary Tree
-
-> TODO : find max https://www.codewars.com/kata/5a04450c8ba914083700000a
-* [kata_binarytree_search](https://github.com/WildCodeSchool/java-katas/tree/kata_binarytree_search)
-* [kata_binarytree_maxsum](https://github.com/WildCodeSchool/java-katas/tree/kata_binarytree_maxsum)
