@@ -6,8 +6,18 @@ public class MorseCode {
     public static String translate(String morse) {
         Map<String, String> morseMap = getMorseMap();
 
-        // TODO
-        return null;
+        String result = "";
+        String[] words = morse.split("   ");
+        for (int i = 0; i < words.length; i++) {
+            String[] letters = words[i].split(" ");
+            for (int j = 0; j < letters.length; j++) {
+                result += morseMap.get(letters[j]);
+            }
+            if (i + 1 < words.length) {
+                result += " ";
+            }
+        }
+        return result;
     }
 
     public static Map<String, String> getMorseMap() {
