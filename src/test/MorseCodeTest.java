@@ -9,12 +9,12 @@ public class MorseCodeTest {
     }
 
     @Test
-    public void test1() throws Exception {
+    public void testWord() throws Exception {
         Assert.assertEquals("WILD", MorseCode.translate(".-- .. .-.. -.."));
     }
 
     @Test
-    public void test2() throws Exception {
+    public void testSentence() throws Exception {
         Assert.assertEquals("WILD CODE", MorseCode.translate(".-- .. .-.. -..   -.-. --- -.. ."));
     }
 
