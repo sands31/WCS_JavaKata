@@ -60,5 +60,6 @@ And finally compile with the *bash* script :
 
 ## Binary Tree
 
+> TODO : find max https://www.codewars.com/kata/5a04450c8ba914083700000a
 * [kata_binarytree_search](https://github.com/WildCodeSchool/java-katas/tree/kata_binarytree_search)
 * [kata_binarytree_maxsum](https://github.com/WildCodeSchool/java-katas/tree/kata_binarytree_maxsum)
