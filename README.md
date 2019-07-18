@@ -5,6 +5,7 @@ Create three classes which implements the interface `Shape` :
 * `Triangle`
 * `Circle`
 
-For each, add a constructor then implement the `area` method.
+For each classes, add the necessary attributes (must be `double`), then a constructor to initialise these and finally implement the `area` method.
 
-Create a class `Square`, which inherits `Rectangle`, then add a constructor that calls `super`.
+Create a class `Square`, which inherits `Rectangle`.
+Add a `side` attribute (must be `double`), then add a constructor that calls `super`.
