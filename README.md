@@ -25,26 +25,33 @@ And finally compile with the *bash* script :
 ## Array
 
 * [kata_found_min](https://github.com/WildCodeSchool/java-katas/tree/kata_found_min)
+* [kata_sum_of_odds](https://github.com/WildCodeSchool/java-katas/tree/kata_sum_of_odds)
 * [kata_sort_array](https://github.com/WildCodeSchool/java-katas/tree/kata_sort_array)
-* [kata_tennis](https://github.com/WildCodeSchool/java-katas/tree/kata_tennis)
-* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
 
 ## String
 
 * [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
 * [kata_palindrome](https://github.com/WildCodeSchool/java-katas/tree/kata_palindrome)
 * [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
+
+## Object
+
+* [kata_worms_arena](https://github.com/WildCodeSchool/java-katas/tree/kata_worms_arena)
+* [kata_shape](https://github.com/WildCodeSchool/java-katas/tree/kata_shape)
+
+## Array Advanced
+
+* [kata_tennis](https://github.com/WildCodeSchool/java-katas/tree/kata_tennis)
+* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
+
+## String Advanced 
+
 * [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
 * [kata_runlength_encoding](https://github.com/WildCodeSchool/java-katas/tree/kata_runlength_encoding)
 
 ## Matrix
 
 * [kata_minesweeper](https://github.com/WildCodeSchool/java-katas/tree/kata_minesweeper)
-
-## Object
-
-* [kata_worms_arena](https://github.com/WildCodeSchool/java-katas/tree/kata_worms_arena)
-* [kata_shape](https://github.com/WildCodeSchool/java-katas/tree/kata_shape)
 
 ## Collection
 
