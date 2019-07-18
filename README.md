@@ -52,6 +52,7 @@ And finally compile with the *bash* script :
 ## Matrix
 
 * [kata_minesweeper](https://github.com/WildCodeSchool/java-katas/tree/kata_minesweeper)
+* [kata_tictactoe](https://github.com/WildCodeSchool/java-katas/tree/kata_tictactoe)
 
 ## Collection
 
