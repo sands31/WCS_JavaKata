@@ -57,15 +57,18 @@ And finally compile with the *bash* script :
 ## Collection
 
 * [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
+* // TODO morse
 
 ## Binary
 
 * [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
+* // TODO chmod
 
 ## Recursion
 
 * [kata_fibonacci](https://github.com/WildCodeSchool/java-katas/tree/kata_fibonacci)
 * [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
+* // TODO facotorial
 
 ## Binary Tree
 
