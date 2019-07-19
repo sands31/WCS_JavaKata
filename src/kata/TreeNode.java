@@ -1,4 +1,4 @@
-class TreeNode {
+public class TreeNode {
 
     private int value;
     private TreeNode left;
