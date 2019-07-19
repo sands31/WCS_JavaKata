@@ -59,6 +59,11 @@ And finally compile with the *bash* script :
 * [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
 * [kata_morse_code](https://github.com/WildCodeSchool/java-katas/tree/kata_morse_code)
 
+## Stream
+
+* // TODO add pascal case
+* // TODO censorship
+
 ## Binary
 
 * [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
