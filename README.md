@@ -1,78 +1,52 @@
-# Katas
+# Chmod
 
-In order to train a kata, you need to checkout its corresponding branch :
+## 1. How does it works
 
-``` bash
-git checkout kata_name
+### Numerical
+
+The numerical permissions are composed of three integers, from 0 to 7, corresponding to "user", "group" and "other" rights.
+
+In order to understand how a permission is assigned to an integer, you need to convert to binary :
+
+```
+    r w x
+0 : 0 0 0
+1 : 0 0 1
+2 : 0 1 0
+3 : 0 1 1
+4 : 1 0 0
+5 : 1 0 1
+6 : 1 1 0
+7 : 1 1 1
 ```
 
-Then read its description from the `README.md`, and :
+Each binary digit is assigned to a corresponding right : read (`r`), write (`w`), execute (`x`).
 
-* edit the class in the path `/src/kata`
-* add tests in the path `/src/test`
+If a digit value is `1`, the right is obtained.
 
-And finally compile with the *bash* script :
-
-``` bash
-./tester.sh
+*E.g:*
+```
+entry:  142
+binary: 001 100 010
 ```
 
-## Fundamentals
+### Octal
 
-* [kata_hello_you](https://github.com/WildCodeSchool/java-katas/tree/kata_hello_you)
-* [kata_fizzbuzz](https://github.com/WildCodeSchool/java-katas/tree/kata_fizzbuzz)
+The octal mode assign the corresponding right `r`, `w`, `x` if the digit is `1`, and a dash `-` if it's `0`.
 
-## Array
+*E.g:*
+```
+binary:  001 100 010
+octal:   --x r-- -w-
+```
 
-* [kata_found_min](https://github.com/WildCodeSchool/java-katas/tree/kata_found_min)
-* [kata_sum_of_odds](https://github.com/WildCodeSchool/java-katas/tree/kata_sum_of_odds)
-* [kata_sort_array](https://github.com/WildCodeSchool/java-katas/tree/kata_sort_array)
+## 2. Kata
 
-## String
+Create a method with converts numeral permissions to octal mode.
 
-* [kata_count_letters](https://github.com/WildCodeSchool/java-katas/tree/kata_count_letters)
-* [kata_palindrome](https://github.com/WildCodeSchool/java-katas/tree/kata_palindrome)
-* [kata_string_compare](https://github.com/WildCodeSchool/java-katas/tree/kata_string_compare)
-
-## Object
-
-* [kata_worms_arena](https://github.com/WildCodeSchool/java-katas/tree/kata_worms_arena)
-* [kata_shape](https://github.com/WildCodeSchool/java-katas/tree/kata_shape)
-
-## Array Advanced
-
-* [kata_tennis](https://github.com/WildCodeSchool/java-katas/tree/kata_tennis)
-* [kata_pyramid](https://github.com/WildCodeSchool/java-katas/tree/kata_pyramid)
-
-## String Advanced 
-
-* [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
-* [kata_runlength_encoding](https://github.com/WildCodeSchool/java-katas/tree/kata_runlength_encoding)
-
-## Matrix
-
-* [kata_minesweeper](https://github.com/WildCodeSchool/java-katas/tree/kata_minesweeper)
-* [kata_tictactoe](https://github.com/WildCodeSchool/java-katas/tree/kata_tictactoe)
-
-## Collection
-
-* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
-* [kata_morse_code](https://github.com/WildCodeSchool/java-katas/tree/kata_morse_code)
-
-## Binary
-
-* [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
-* // TODO chmod
-
-## Recursion
-
-* [kata_factorial](https://github.com/WildCodeSchool/java-katas/tree/kata_factorial)
-* [kata_fibonacci](https://github.com/WildCodeSchool/java-katas/tree/kata_fibonacci)
-* [kata_recursive_exponentiation](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_exponentiation)
-* [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
-
-## Binary Tree
-
-* [kata_binarytree_search](https://github.com/WildCodeSchool/java-katas/tree/kata_binarytree_search)
-* [kata_binarytree_findmax](https://github.com/WildCodeSchool/java-katas/tree/kata_binarytree_findmax)
-* [kata_binarytree_maxsum](https://github.com/WildCodeSchool/java-katas/tree/kata_binarytree_maxsum)
+*E.g:*
+```
+entry : 000, result : ---------
+entry : 352, result : -wxr-x-w-
+entry : 777, result : rwxrwxrwx
+```
