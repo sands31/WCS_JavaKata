@@ -66,9 +66,9 @@ And finally compile with the *bash* script :
 
 ## Recursion
 
+* [kata_factorial](https://github.com/WildCodeSchool/java-katas/tree/kata_factorial)
 * [kata_fibonacci](https://github.com/WildCodeSchool/java-katas/tree/kata_fibonacci)
 * [kata_recursive_multiply](https://github.com/WildCodeSchool/java-katas/tree/kata_recursive_multiply)
-* // TODO factorial
 
 ## Binary Tree
 
