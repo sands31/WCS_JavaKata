@@ -20,8 +20,6 @@ public class Arena {
     }
 
     private static void attack(Worm worm1, Worm worm2) {
-        System.out.println(worm1.getName() + " attacks " + worm2.getName());
         worm2.setLife(worm2.getLife() - worm1.getAttack());
-        System.out.println(worm2.getName() + " has " + worm2.getLife() + " remaining");
     }
 }
