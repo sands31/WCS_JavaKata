@@ -1,6 +1,6 @@
 # Recursive exponentiation
 
-Recreate the method `Math.pow`, but you need to call a method `pow(int n)` recursively.
+Recreate the method `Math.pow`, but you need to call a method `pow(n, e)` recursively.
 
 ```
 2⁰ = 1
