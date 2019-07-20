@@ -54,10 +54,15 @@ And finally compile with the *bash* script :
 * [kata_minesweeper](https://github.com/WildCodeSchool/java-katas/tree/kata_minesweeper)
 * [kata_tictactoe](https://github.com/WildCodeSchool/java-katas/tree/kata_tictactoe)
 
-## Collection
+## Map
 
-* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
 * [kata_morse_code](https://github.com/WildCodeSchool/java-katas/tree/kata_morse_code)
+* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
+
+## Stream
+
+* TODO pascalcase
+* TODO censorship
 
 ## Binary
 
