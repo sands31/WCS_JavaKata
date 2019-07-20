@@ -1,8 +1,8 @@
 public class Chmod {
 
-    public static String convert(String numeral) {
+    public static String convert(String numerical) {
         String result = "";
-        for (char digit : numeral.toCharArray()) {
+        for (char digit : numerical.toCharArray()) {
             int decimal = Integer.parseInt("" + digit);
             String binary = decimalToBinary(decimal);
             // padding left with zeros

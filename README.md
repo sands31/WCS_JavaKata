@@ -42,11 +42,11 @@ octal:   --x r-- -w-
 
 ## 2. Kata
 
-Create a method with converts numeral permissions to octal mode.
+Create a method with converts numerical permissions to octal mode.
 
 *E.g:*
 ```
-numeral : "000", result : "---------"
-numeral : "352", result : "-wxr-x-w-"
-numeral : "777", result : "rwxrwxrwx"
+numerical : "000", result : "---------"
+numerical : "352", result : "-wxr-x-w-"
+numerical : "777", result : "rwxrwxrwx"
 ```
