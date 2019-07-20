@@ -46,7 +46,7 @@ Create a method with converts numeral permissions to octal mode.
 
 *E.g:*
 ```
-entry : "000", result : "---------"
-entry : "352", result : "-wxr-x-w-"
-entry : "777", result : "rwxrwxrwx"
+numeral : "000", result : "---------"
+numeral : "352", result : "-wxr-x-w-"
+numeral : "777", result : "rwxrwxrwx"
 ```
