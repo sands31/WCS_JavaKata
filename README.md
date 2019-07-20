@@ -48,6 +48,7 @@ And finally compile with the *bash* script :
 
 * [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
 * [kata_runlength_encoding](https://github.com/WildCodeSchool/java-katas/tree/kata_runlength_encoding)
+* [kata_caesar_cipher](https://github.com/WildCodeSchool/java-katas/tree/kata_caesar_cipher)
 
 ## Matrix
 
