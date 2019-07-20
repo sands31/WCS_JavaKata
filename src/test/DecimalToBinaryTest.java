@@ -8,5 +8,11 @@ public class DecimalToBinaryTest {
         Assert.assertEquals(true, true);
     }
 
-    // TODO
+    @Test
+    public void testConversion() throws Exception {
+        Assert.assertEquals("0", DecimalToBinary.convert(0));
+        Assert.assertEquals("1", DecimalToBinary.convert(1));
+        Assert.assertEquals("10", DecimalToBinary.convert(2));
+        Assert.assertEquals("10100100", DecimalToBinary.convert(164));
+    }
 }
