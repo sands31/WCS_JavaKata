@@ -62,8 +62,8 @@ And finally compile with the *bash* script :
 ## Binary
 
 * [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
-* // TODO add decimal to binary
-* [kata_chmod](https://github.com/WildCodeSchool/java-katas/tree/kata_chmod) // TODO : add solution
+* [kata_decimal_to_binary](https://github.com/WildCodeSchool/java-katas/tree/kata_decimal_to_binary)
+* [kata_chmod](https://github.com/WildCodeSchool/java-katas/tree/kata_chmod)
 
 ## Recursion
 
