@@ -8,5 +8,11 @@ public class CaesarCipherTest {
         Assert.assertEquals(true, true);
     }
 
-    // TODO
+    @Test
+    public void testEncrypt() throws Exception {
+        Assert.assertEquals("bcde", CaesarCipher.encrypt("abcd", 1));
+        Assert.assertEquals("zabc", CaesarCipher.encrypt("abcd", -1));
+        Assert.assertEquals("wdfrv", CaesarCipher.encrypt("tacos", 3));
+        Assert.assertEquals("bgdtc", CaesarCipher.encrypt("zebra", 2));
+    }
 }
