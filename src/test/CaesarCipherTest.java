@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class MainTest {
+public class CaesarCipherTest {
 
     @Test
     public void testTrue() throws Exception {
