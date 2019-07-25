@@ -2,7 +2,7 @@
 
 Create a method that, given a binary string representation of an hexadecimal value, returns its decimal value.
 
-If the argument is null or empty, throw an `IllegalArgumentException`.
+If the argument is null, empty or contains an illegal character, throw an `IllegalArgumentException`.
 
 Hexadecimal is a numeral system with a base of 16. It uses sixteen distinct symbols : `0` to `9` to represent values zero to nine, and `A` to `F` represent values ten to fifteen.
 
