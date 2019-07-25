@@ -72,9 +72,9 @@ And finally compile with the *bash* script :
 
 ## Hexadecimal
 
-* TODO decimal to hexadecimal
 * [kata_hexadecimal_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_hexadecimal_to_decimal)
 * [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
+* [kata_decimal_to_hexadecimal](https://github.com/WildCodeSchool/java-katas/tree/kata_decimal_to_hexadecimal)
 
 ## Recursion
 
