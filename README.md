@@ -11,5 +11,3 @@ Each color group contains two digits, and goes from `00` to `FF` (255).
 A RBG array contains the value of each color group in decimal.
 
 If you convert `#FFD700` into a RGB array, you'll obtain `{255, 215, 0}`.
-
-In order to convert a hexadecimal into decimal value, you can use `Integer.parseInt(value, 16);`.
