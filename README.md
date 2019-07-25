@@ -46,7 +46,6 @@ And finally compile with the *bash* script :
 
 ## String Advanced 
 
-* [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
 * [kata_runlength_encoding](https://github.com/WildCodeSchool/java-katas/tree/kata_runlength_encoding)
 * [kata_caesar_cipher](https://github.com/WildCodeSchool/java-katas/tree/kata_caesar_cipher)
 
@@ -62,19 +61,20 @@ And finally compile with the *bash* script :
 
 ## Stream
 
-* TODO pascalcase
+* TODO add pascal case
 * TODO censorship
-
-## Stream
-
-* // TODO add pascal case
-* // TODO censorship
 
 ## Binary
 
 * [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
 * [kata_decimal_to_binary](https://github.com/WildCodeSchool/java-katas/tree/kata_decimal_to_binary)
 * [kata_chmod](https://github.com/WildCodeSchool/java-katas/tree/kata_chmod)
+
+## Hexadecimal
+
+* TODO hexadecimal to decimal
+* TODO decimal to hexadecimal
+* [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
 
 ## Recursion
 
