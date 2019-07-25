@@ -1,6 +1,6 @@
 # Hexadecimal to decimal
 
-Create a method that, given a binary string representation of an hexadecimal value, returns its decimal value.
+Create a method that, given a string representation of an hexadecimal value, returns its decimal value.
 
 If the argument is null, empty or contains an illegal character, throw an `IllegalArgumentException`.
 
