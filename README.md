@@ -48,16 +48,22 @@ And finally compile with the *bash* script :
 
 * [kata_hex_to_rgb](https://github.com/WildCodeSchool/java-katas/tree/kata_hex_to_rgb)
 * [kata_runlength_encoding](https://github.com/WildCodeSchool/java-katas/tree/kata_runlength_encoding)
+* [kata_caesar_cipher](https://github.com/WildCodeSchool/java-katas/tree/kata_caesar_cipher)
 
 ## Matrix
 
 * [kata_minesweeper](https://github.com/WildCodeSchool/java-katas/tree/kata_minesweeper)
 * [kata_tictactoe](https://github.com/WildCodeSchool/java-katas/tree/kata_tictactoe)
 
-## Collection
+## Map
 
-* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
 * [kata_morse_code](https://github.com/WildCodeSchool/java-katas/tree/kata_morse_code)
+* [kata_roman_to_arabic](https://github.com/WildCodeSchool/java-katas/tree/kata_roman_to_arabic)
+
+## Stream
+
+* TODO pascalcase
+* TODO censorship
 
 ## Stream
 
@@ -67,8 +73,8 @@ And finally compile with the *bash* script :
 ## Binary
 
 * [kata_binary_to_decimal](https://github.com/WildCodeSchool/java-katas/tree/kata_binary_to_decimal)
-* // TODO add decimal to binary
-* [kata_chmod](https://github.com/WildCodeSchool/java-katas/tree/kata_chmod) // TODO : add solution
+* [kata_decimal_to_binary](https://github.com/WildCodeSchool/java-katas/tree/kata_decimal_to_binary)
+* [kata_chmod](https://github.com/WildCodeSchool/java-katas/tree/kata_chmod)
 
 ## Recursion
 
