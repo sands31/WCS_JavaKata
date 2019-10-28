@@ -1,6 +1,6 @@
 # Database modeling with Merise
 
-Each restaurant (specified by a name and a city) sells one or more menus, but a menu is only sold in only one restaurant.
+Each restaurant (specified by a name and a city) sells one or more menus, but a menu is sold in only one restaurant.
 A menu (specified by a title) contains one or more dishes.
 A dish (specified by a name and a price) can be contained by one or more menus.
 
