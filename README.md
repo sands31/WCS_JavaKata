@@ -39,6 +39,11 @@ And finally compile with the *bash* script :
 * [kata_worms_arena](https://github.com/WildCodeSchool/java-katas/tree/kata_worms_arena)
 * [kata_shape](https://github.com/WildCodeSchool/java-katas/tree/kata_shape)
 
+## Database
+
+* [kata_database_modeling](https://github.com/WildCodeSchool/java-katas/tree/kata_database_modeling)
+* [kata_sql_queries](https://github.com/WildCodeSchool/java-katas/tree/kata_sql_queries)
+
 ## Array Advanced
 
 * [kata_tennis](https://github.com/WildCodeSchool/java-katas/tree/kata_tennis)
