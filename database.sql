@@ -2,7 +2,7 @@ CREATE DATABASE  IF NOT EXISTS `kata_sql_restaurant` /*!40100 DEFAULT CHARACTER 
 USE `kata_sql_restaurant`;
 -- MySQL dump 10.13  Distrib 5.7.26, for Linux (x86_64)
 --
--- Host: localhost    Database: restaurant
+-- Host: localhost    Database: kata_sql_restaurant
 -- ------------------------------------------------------
 -- Server version	5.7.26-0ubuntu0.18.04.1
 
@@ -65,7 +65,7 @@ CREATE TABLE `menu` (
 
 LOCK TABLES `menu` WRITE;
 /*!40000 ALTER TABLE `menu` DISABLE KEYS */;
-INSERT INTO `menu` VALUES (1,'Le menu cher',1),(2,'Le menu très cher',1),(3,'Le menu trop cher',1),(4,'Le menu unique',2),(5,'Pastèque et Camember',3),(6,'Picouli',3),(7,'Menu midi',4),(8,'Menu soir',4),(9,'Brunch de ouf',5),(10,'Les petits plats',6),(11,'Menu enfant',6),(12,'Menu A',7),(13,'Menu B',7),(14,'Menu C',7),(15,'Menu S+',7),(16,'Mangeons bien',8),(17,'Mangeons équilibré',8),(18,'Mangeons peu',8),(19,'Mangeons beaucoup',8),(20,'Faim de table',10);
+INSERT INTO `menu` VALUES (1,'Le menu cher',1),(2,'Le menu très cher',1),(3,'Le menu trop cher',1),(4,'Le menu unique',2),(5,'Pastèque et camembert',3),(6,'Picouli',3),(7,'Menu midi',4),(8,'Menu soir',4),(9,'Brunch de ouf',5),(10,'Les petits plats',6),(11,'Menu enfant',6),(12,'Menu A',7),(13,'Menu B',7),(14,'Menu C',7),(15,'Menu S+',7),(16,'Mangeons bien',8),(17,'Mangeons équilibré',8),(18,'Mangeons peu',8),(19,'Mangeons beaucoup',8),(20,'Faim de table',10);
 /*!40000 ALTER TABLE `menu` ENABLE KEYS */;
 UNLOCK TABLES;
 
