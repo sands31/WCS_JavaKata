@@ -1,5 +1,7 @@
 # SQL Queries
 
+![Database diagram](https://image.noelshack.com/fichiers/2019/44/3/1572438454-screenshot-from-2019-10-30-13-27-09.png)
+
 Import the `database.sql` file into MySQL.
 
 Create the following queries : 
