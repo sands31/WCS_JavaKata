@@ -36,7 +36,7 @@ Create the following queries :
 
 15. Select the title of the menu with the most dishes
 
-16. Select, for each restaurant, its name and how many menus it sells Remember : some restaurants might not have any menu !
+16. Select, for each restaurant, its name and how many menus it sells (some restaurants might not have any menu)
 
 17. Select menu's title and dishes' count for each menu, in decreasing count order
 
