@@ -34,11 +34,11 @@ Create the following queries :
 
 14. Select each city's name and how many restaurants located in this city
 
-15. Select the title of the menu with the most dishes
+15. Select menu's title and dishes' count for each menu
 
-16. Select, for each restaurant, its name and how many menus it sells (some restaurants might not have any menu)
+16. Select the title of the menu with the most dishes
 
-17. Select menu's title and dishes' count for each menu, in decreasing count order
+17. Select, for each restaurant, its name and how many menus it sells (some restaurants might not have any menu)
 
 18. Select all menu's title and dishes count, where menus have more than two dishes.
 
@@ -133,19 +133,19 @@ Create the following queries :
 <details>
     <summary>Request 15</summary>
   
-    COUNT, INNER JOIN, GROUP BY, ORDER BY, LIMIT
+    COUNT, INNER JOIN (x2), GROUP BY
   
 </details>
 <details>
     <summary>Request 16</summary>
   
-    COUNT, LEFT JOIN, GROUP BY
+    CCOUNT, INNER JOIN (x2), GROUP BY, ORDER BY, LIMIT
   
 </details>
 <details>
     <summary>Request 17</summary>
   
-    COUNT, INNER JOIN (x2), GROUP BY
+    COUNT, LEFT JOIN, GROUP BY
   
 </details>
 <details>
