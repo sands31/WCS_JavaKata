@@ -2,7 +2,7 @@
 
 In cryptography, a Caesar cipher is a simple encryption technique, in which each letter in text is replaced by a letter some fixed number of positions down the alphabet.
 
-For example, with a right shift of 3, `a` becomes `s`, `b` becomes `e`, and so on until `w` which become `z`. Then `x`, `y` and `z` become `a`, `b` and `c`. 
+For example, with a right shift of 3, `a` becomes `d`, `b` becomes `e`, and so on until `w` which become `z`. Then `x`, `y` and `z` become `a`, `b` and `c`. 
 
 Create a methods which encrypts a word (only in lowercase) using Caesar cipher, where the shift value (which can be positive or negative) is a parameter.
 
