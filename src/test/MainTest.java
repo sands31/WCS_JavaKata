@@ -5,8 +5,7 @@ public class MainTest {
 
     @Test
     public void testTrue() throws Exception {
-        Assert.assertEquals(true, true);
+        Assert.assertArrayEquals(new int[] {1, 13, 25, 48}, Main.sortedArray(new int[] {1, 25, 13, 48}));
     }
 
-    // TODO
 }
